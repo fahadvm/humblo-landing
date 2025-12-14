@@ -29,7 +29,7 @@ const Hero: React.FC<HeroProps> = ({ onNotifyClick }) => {
           className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight"
         >
           Crunching Soon. <br />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 to-brand-400">
+          <span className="text-transparent bg-clip-text bg-linear-to-r from-brand-600 to-brand-400">
             Violet Attitude.
           </span>
         </motion.h1>
@@ -64,7 +64,7 @@ const Hero: React.FC<HeroProps> = ({ onNotifyClick }) => {
       </div>
 
       {/* Right Column - Stacked Cards Preview */}
-      <div className="relative h-[500px] hidden lg:block">
+      <div className="relative h-125 hidden lg:block">
         {/* Decorative Elements */}
         <div className="absolute top-0 right-0 w-64 h-64 bg-brand-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse"></div>
         <div className="absolute bottom-0 left-0 w-64 h-64 bg-purple-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse"></div>
@@ -117,5 +117,4 @@ const Hero: React.FC<HeroProps> = ({ onNotifyClick }) => {
   );
 };
 
-export default ;
-Hero
+export default Hero;

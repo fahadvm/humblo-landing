@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import Hero from './components/Hero';
 import Highlights from './components/Highlights';
 import FeedGrid from './components/FeedGrid';
@@ -47,9 +47,9 @@ function App() {
   return (
     <div className="min-h-screen bg-white font-sans text-gray-900">
       <Hero onNotifyClick={scrollToTeaser} />
-      
+
       <Highlights />
-      
+
       <FeedGrid posts={posts} />
 
       <div ref={teaserRef}>

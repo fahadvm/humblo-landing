@@ -19,7 +19,7 @@ const Highlights: React.FC = () => {
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ delay: 0.5 + index * 0.1 }}
-            className="flex flex-col items-center gap-4 min-w-[120px] cursor-pointer group"
+            className="flex flex-col items-center gap-4 min-w-30 cursor-pointer group"
           >
             <div className="w-24 h-24 rounded-full flex items-center justify-center border-[3px] border-brand-200 p-1 group-hover:border-brand-500 transition-colors duration-300">
                <div className="w-full h-full rounded-full bg-gray-50 flex items-center justify-center group-hover:bg-brand-50 transition-colors">
