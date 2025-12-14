@@ -25,21 +25,39 @@ function App() {
 
   const posts = [
     {
-      image: "https://images.unsplash.com/photo-1694101493190-acc6c4418ad7?auto=format&fit=crop&w=800&q=80",
-      title: "Potato Chips",
-      description: "Crispy, golden, and seasoned to perfection. The classic crunch you crave.",
+      image: "p6.png",
+      title: "Mixture Ripe",
+      description: "A colorful bowl of ripe seasonal fruits, packed with freshness, nutrients, and natural sweetness.",
       likes: "1,240"
     },
     {
-      image: "https://images.unsplash.com/photo-1680359939304-7e27ee183e7a?auto=format&fit=crop&w=800&q=80",
-      title: "Murukku Magic",
-      description: "Twisted tradition in every bite. Authentic spices, handmade love.",
+      image: "p5.png",
+      title: "Ripe Mango",
+      description:"Naturally ripened mangoes, fresh, juicy, and packed with vitamins and goodness.",
       likes: "856"
     },
     {
-      image: "https://images.unsplash.com/photo-1565715279542-9104a91324ff?auto=format&fit=crop&w=800&q=80",
-      title: "Spicy Mixture",
-      description: "A bold mix of flavors for the brave snacker. Warning: Highly addictive.",
+      image: "p4.jpg",
+      title: "Ripe Banana",
+      description:"Fresh, ripe bananas rich in energy, crispy, golden, nutrients, and natural sweetness.",
+      likes: "2,103"
+    },
+    {
+      image: "p1.jpg",
+      title: " Masala Chips",
+      description: "Light, crispy coconut chips made from fresh coconut, perfectly roasted for crunch.",
+      likes: "1,240"
+    },
+    {
+      image: "p3.jpg",
+      title: "Ripe Jackfruit",
+      description: "Sweet, juicy ripe jackfruit with a rich tropical aroma and soft, golden texture.",
+      likes: "856"
+    },
+    {
+      image: "p2.jpg",
+      title: "Coconut Masala Chips",
+      description: "Crunchy coconut chips tossed in aromatic spices for a bold and flavorful snack..",
       likes: "2,103"
     }
   ];
