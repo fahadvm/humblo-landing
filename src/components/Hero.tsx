@@ -30,7 +30,8 @@ const Hero: React.FC<HeroProps> = ({ onNotifyClick }) => {
                 >
                     Crunching Soon. <br />
                     <span className="text-transparent bg-clip-text bg-linear-to-r from-brand-600 to-brand-400">
-                        Violet Attitude.
+                        
+                        Sweet & Care.
                     </span>
                 </motion.h1>
 
